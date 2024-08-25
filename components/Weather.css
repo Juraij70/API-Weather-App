@@ -1,6 +1,4 @@
 .weather{
-    /* it will be center cuz we used grid layout in parent div */
-    /* which i believe is in index.css */
     place-self: center;
     padding: 40px;
     border-radius: 10px;
@@ -10,7 +8,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* all the contents in this div will be vertically aligned */
 }
 .search-bar{
     display: flex;
