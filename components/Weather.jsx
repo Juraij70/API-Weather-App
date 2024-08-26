@@ -23,7 +23,6 @@ const Weather = () => {
     }
     console.log(import.meta.env.VITE_APP_ID)
 
-
     useEffect(()=>{
         search("London");
     },[])
@@ -32,7 +31,6 @@ const Weather = () => {
     //     console.log("API Key:", import.meta.env.VITE_APP_ID);
     //     search("London");
     //   }, []);
-
 
   return (
     <div className='weather'>
